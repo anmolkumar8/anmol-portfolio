@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anmol Kumar — Portfolio</title>
+    <meta name="description" content="Anmol Kumar — Portfolio website showcasing skills, projects, education, and achievements." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="assets/profile-placeholder.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <canvas id="bg" aria-hidden="true"></canvas>
+
+    <header class="site-header container">
+      <a class="logo" href="#top">AK</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">🌙</button>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="avatar-wrap">
+          <img src="assets/picture.jpg" alt="Portrait of Anmol Kumar" class="avatar" />
+          <span class="accent-glow" aria-hidden="true"></span>
+        </div>
+        <div class="intro glass">
+          <h1 class="title">Anmol Kumar</h1>
+          <p class="subtitle"><span class="typing" data-text="Final-year CSE Student • Sales & Career Development Aspirant"></span></p>
+          <p class="summary">
+            Motivated and result-oriented final-year Engineering student with strong communication and presentation skills, seeking to grow in a sales and career development role. Proficient in MS Excel, PowerPoint, and Google Sheets. Eager to learn sales strategies, build customer relationships, and contribute to team goals.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="assets/Anmol_Kumar_Resume.pdf" download>Download Resume</a>
+            <a class="btn" href="mailto:anmol.krhjp@gmail.com">Contact Me</a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/in/anmol-kumar4" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a class="btn btn-outline" href="https://github.com/anmolkumar8" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <header class="section-header">
+          <h2>Projects</h2>
+          <p>Selected work highlighting UI, productivity tools, and deployment.</p>
+        </header>
+        <div class="grid cards">
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>Occasion Message Generator</h3>
+              <span class="time">Jul – Sep 2025</span>
+            </div>
+            <ul class="bullets">
+              <li>Smart generator for 19+ occasions with regeneration capability.</li>
+              <li>Modern responsive UI with custom CSS animations and glassmorphism.</li>
+              <li>Deployed on GitHub Pages; features for copy and download.</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-chip" href="https://occasion-message-generator.vercel.app/" aria-label="Live demo (link to be added)">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>Time Planner</h3>
+              <span class="time">Dec 2024 – Mar 2025</span>
+            </div>
+            <ul class="bullets">
+              <li>Logic-driven day planner to track goals and monitor weekly progress.</li>
+              <li>Improved productivity via task planning and tracking.</li>
+              <li>Clean, user-friendly layout.</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-chip" href="https://time-plan.vercel.app/" aria-label="Live demo (link to be added)">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>Portfolio Website</h3>
+              <span class="time">Jan – Mar 2023</span>
+            </div>
+            <ul class="bullets">
+              <li>Designed a personal portfolio to showcase skills.</li>
+              <li>Built with HTML & CSS focusing on responsive layout and styling.</li>
+              <li>Strengthened frontend fundamentals through real-time implementation.</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-chip" href="#" aria-label="Live demo (link to be added)">Live Demo ↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        <div class="skills">
+          <div class="skill-block glass">
+            <h3>Technical</h3>
+            <div class="badges" id="tech-badges">
+              <span>MS Excel</span><span>PowerPoint</span><span>Google Sheets</span><span>JAVA</span><span>HTML</span><span>CSS</span><span>Git</span><span>GitHub</span><span>Vercel</span>
+            </div>
+          </div>
+          <div class="skill-block glass">
+            <h3>Interpersonal</h3>
+            <div class="badges" id="soft-badges">
+              <span>Leadership</span><span>Effective Communication</span><span>Decision Making</span><span>Team Coordination</span><span>Adaptability</span><span>Negotiation</span><span>Emotional Intelligence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section container">
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+        <div class="timeline">
+          <article class="timeline-item glass">
+            <h3>B.Tech in Computer Science Engineering</h3>
+            <p>Chandigarh University, Gharuan</p>
+            <p class="muted">2022 – 2026 • CGPA: 7.42</p>
+          </article>
+          <article class="timeline-item glass">
+            <h3>Intermediate (CBSE)</h3>
+            <p>St. Paul High School, Hajipur</p>
+            <p class="muted">2020 – 2022 • 73.16%</p>
+          </article>
+          <article class="timeline-item glass">
+            <h3>Matriculation (CBSE)</h3>
+            <p>St. Paul High School, Hajipur</p>
+            <p class="muted">2019 – 2020 • 86.66%</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="achievements" class="section container">
+        <header class="section-header">
+          <h2>Academic Achievements</h2>
+        </header>
+        <ul class="list">
+          <li>Academic Class Representative (2024–2025).</li>
+          <li>Recognized for excellence in communication.</li>
+          <li>Run on Sentence competition — Winner.</li>
+        </ul>
+      </section>
+
+      <section id="certifications" class="section container">
+        <header class="section-header">
+          <h2>Certifications & Awards</h2>
+        </header>
+        <ul class="list two-col">
+          <li>Successful Negotiation: Essential Strategies and Skills — Coursera</li>
+          <li>PowerPoint Essential Training (Microsoft 365) — LinkedIn</li>
+          <li>Excel Formulas and Functions Quick Tips (2020) — LinkedIn</li>
+          <li>Creative Collaboration — LinkedIn</li>
+          <li>Introduction to Java — Coursera</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section container">
+        <header class="section-header">
+          <h2>Contact</h2>
+        </header>
+        <div class="contact glass">
+          <p><strong>Address:</strong> Patna, Bihar — 844102</p>
+          <p><strong>Email:</strong> <a href="mailto:anmol.krhjp@gmail.com">anmol.krhjp@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+919508412334">+91 95084 12334</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anmol-kumar4" target="_blank" rel="noopener">anmol-kumar4 ↗</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/anmolkumar8" target="_blank" rel="noopener">anmolkumar8 ↗</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>© <span id="year"></span> Anmol Kumar • Built with HTML, CSS, and JavaScript</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
